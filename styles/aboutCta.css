@@ -1,0 +1,47 @@
+.about-cta {
+	position: relative;
+	color: #707070;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about-cta-container {
+	width: 48.59vw;
+	text-align: center;
+	margin: 36.72vh 0 54.47vh;
+}
+
+.about-cta-title {
+	margin-bottom: 2.60vw;
+}
+
+.about-cta-img {
+	width: 44.3vw;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0 0 -7% -7%;
+	z-index: -1;
+}
+
+.about-cta-button {
+	margin-top: 9.62vh;
+}
+
+@media (max-width: 768px) {
+	.about-cta-container {
+		width: 72.27vw;
+		margin: 24vw 0 38.4vw;
+	}
+
+	.about-cta-title {
+		font-size: 8vw;
+		line-height: 8vw;
+		margin-bottom: 4.53vw;
+	}
+
+	.about-cta-button {
+		margin-top: 10.67vw;
+	}
+}

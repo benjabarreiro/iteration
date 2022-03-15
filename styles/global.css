@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Arista-Bold";
+  src: url('Arista-Pro-Bold-trial.ttf');
+}
+@font-face {
+  font-family: "Arista-Fat";
+  src: url('Arista-Pro-Fat-trial.ttf');
+}
+@font-face {
+  font-family: "Arista-Light";
+  src: url('Arista-Pro-Light-trial.ttf');
+}
+@font-face {
+  font-family: "Roboto-Black";
+  src: url('Roboto-Black.ttf');
+}
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url('Roboto-BlackItalic.ttf');
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url('Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url('Roboto-BoldItalic.ttf');
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url('Roboto-Italic.ttf');
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url('Roboto-Light.ttf');
+}
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url('Roboto-LightItalic.ttf');
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url('Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url('Roboto-MediumItalic.ttf');
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url('Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url('Roboto-Thin.ttf');
+}
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url('Roboto-ThinItalic.ttf');
+}
+
+.title {
+  font-family: 'Arista-Bold';
+}
+
+.text {
+  font-family: 'Roboto-Regular';
+}
+
+.text-bold {
+  font-family: 'Roboto-Bold';
+}
+
+.text-medium {
+  font-family: 'Roboto-Medium';
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4.165vw;
+  line-height: 4.165vw;
+}
+
+h4 {
+  font-size: 2.6vw;
+  line-height: 2.6vw;
+}
+
+p {
+  font-size: 1.04vw;
+  line-height: 1.56vw;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.04vw;
+  line-height: 1.25vw;
+}
+
+.link {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 10.67vw;
+    line-height: 10.67vw;
+  }
+
+  h4 {
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+
+  p {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+}
