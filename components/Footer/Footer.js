@@ -11,9 +11,8 @@ export default function Footer() {
             <div className="desktop-container">
               <h5 className="text-bold">Contact</h5>
               <ul>
-                <li>1460 Broadway</li>
-                <li>NY, USA</li>
-                <li>6467414814</li>
+              <li>WhatsApp</li>
+              <li>+54 11-3569-3617</li>
               </ul>
             </div>
             <div className="footer-right-container">
