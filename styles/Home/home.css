@@ -1,0 +1,17 @@
+@import "./banner.css";
+
+@import "./HomeCta/homeCta.css";
+@import "./HomeCta/homeCta1.css";
+@import "./HomeCta/homeCta2.css";
+
+@import "./ImgContainer/imgContainer1.css";
+@import "./ImgContainer/imgContainer2.css";
+@import "./ImgContainer/imgContainer3.css";
+
+@import "./informationHeading.css";
+
+@import "./clientContent.css";
+@import "./clientCard.css";
+
+@import "./benefitContent.css";
+@import "./benefitCard.css";

@@ -1,0 +1,36 @@
+.home-img-container-1 {
+	width: 100vw;
+	overflow: hidden;
+}
+
+.img-container-style-1 {
+	width: 100%;
+	margin-top: -20%;
+	margin-bottom: -3%;
+}
+
+@media (max-width: 768px) {
+	.home-img-container-1 {
+	  height: 900px;
+	}
+
+	.img-container-style-1 {
+		width: auto;
+		height: 100%;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		margin-left: -38%;
+	}
+}
+
+@media (max-width: 500px) {
+	.home-img-container-1 {
+	  height: 700px;
+	}
+}
+
+@media (max-width: 425px) {
+	.home-img-container-1 {
+	  height: 515px;
+	}
+}

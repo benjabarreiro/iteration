@@ -1,0 +1,32 @@
+.benefit-card {
+	width: 21.7vw;
+}
+  
+.benefit-card-video {
+	width: 7.08vw;
+}
+  
+.benefit-card-text {
+	line-height: 4.16vw;
+}
+
+@media (max-width: 768px) {
+	.benefit-card {
+		width: 50%;
+		margin-bottom: 7.47vw;
+	}
+	
+	.benefit-card-video {
+		width: 14.93vw;
+	}
+	
+	.benefit-card-text {
+		font-size: 3.2vw;
+		line-height: 4vw;
+		margin: 1.07vw 0 0;
+	}
+	
+	.benefit-card-text2 {
+		margin: 5.07vw 6vw 0;
+	}
+}

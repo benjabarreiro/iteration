@@ -1,0 +1,16 @@
+.values-content {
+	color: #707070;
+	text-align: center;
+	margin: 0 6.64vw;
+	padding-bottom: 11.51vw;
+}
+
+@media (max-width: 768px) {
+	div.values-content .carousel-inner {
+		padding-top: 17.6vw;
+	}
+
+	.carousel-indicators {
+		display: none !important;
+	}
+}

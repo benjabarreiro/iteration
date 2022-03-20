@@ -1,0 +1,48 @@
+.home-cta-container-1 {
+	padding: 10.42% 28.33vw 9.01%;
+	text-align: center;
+	color: #707070;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-cta-description-2 {
+	font-size: 1.04vw;
+	width: 70.79%;
+	padding: 2.14vw 0px 1.93vw;
+}
+
+.cta-button1 {
+	padding: 1.09vw 2.76vw;
+	background: #6baeb9;
+	border: 1px solid #e9f0f4;
+}
+
+.cta-button1-text {
+	width: 7.08vw;
+}
+
+@media (max-width: 768px) {
+	.home-cta-container-1 {
+	  padding: 24.27vw 18.93vw;
+	}
+
+	.home-cta-description-1 {
+		width: 97%;
+		padding: 6.67vw 0;
+	}
+
+	.home-cta-description-1 p {
+		font-size: 3.2vw;
+		line-height: 4vw;
+	}
+
+	.cta-button1 {
+		padding: 2.93vw 6.93vw;
+	}
+
+	.cta-button1-text {
+		width: 32vw;
+	}
+}

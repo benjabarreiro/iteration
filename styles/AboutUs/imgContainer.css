@@ -1,0 +1,41 @@
+.img-container-about {
+	width: 100vw;
+	overflow: hidden;
+}
+
+.about-img-container {
+	width: 100%;
+	margin-top: -7%;
+	margin-bottom: -9%;
+}
+
+@media (max-width: 768px) {
+	.img-container-about {
+		height: 1160px;
+	}
+
+	.about-img-container {
+		height: 100%;
+		width: auto;
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+}
+
+@media (max-width: 500px) {
+	.img-container-about {
+		height: 800px;
+	}
+}
+
+@media (max-width: 425px) {
+	.img-container-about {
+		height: 660px;
+	}
+}
+
+@media (max-width: 375px) {
+	.img-container-about {
+		height: 590px;
+	}
+}

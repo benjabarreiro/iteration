@@ -1,0 +1,31 @@
+.heading {
+	font-size: 4.165vw;
+	line-height: 4.165vw;
+}
+
+.text-bold.first {
+	padding-top: 1.93vw;
+}
+
+button {
+	border-radius: 46px !important;
+	color: #ffffff;
+	font-size: 1.3vw;
+	line-height: 1.3vw;
+}
+
+@media (max-width: 768px) {
+	.heading {
+		font-size: 8vw;
+		line-height: 8vw;
+	}
+
+	.text-bold.first {
+		padding-top: 4vw;
+	}
+
+	button {
+		font-size: 3.2vw;
+		line-height: 10.67vw;
+	}
+}

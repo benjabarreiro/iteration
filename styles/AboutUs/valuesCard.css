@@ -1,0 +1,44 @@
+.values-card {
+	width: 25.1vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f4f4f4;
+	border-radius: 24px;
+	padding: 2.87vw 3.75vw 3.02vw;
+	margin: 4.74vw 2.11% 0;
+}
+
+.values-card-icon {
+	width: 5.21vw;
+}
+
+.values-card-title {
+	margin: 0.47vw 0 2.08vw;
+}
+
+@media (max-width: 768px) {
+	.values-card {
+		position: relative;
+		width: 62.4vw;
+		max-height: 84.33vw;
+		margin: 0 auto;
+		padding: 10.67vw 8.67vw 12.29vw;
+	}
+
+	.values-card-icon {
+		position: absolute;
+		top: -8vw;
+		width: 16vw;
+	}
+
+	.values-card-title {
+		margin: 0px 0 6.08vw;
+	}
+
+	.values-card p {
+		font-size: 3.2vw;
+		line-height: 4vw;
+		margin-bottom: 0;
+	}
+}

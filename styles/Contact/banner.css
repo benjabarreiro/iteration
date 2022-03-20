@@ -1,0 +1,113 @@
+.banner-contact {
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+}
+.img-banner-contact {
+	display: block;
+	width: 100%;
+	margin-top: -21%;
+}
+
+.heading-banner-contact {
+	position: absolute;
+	top: 13.02vw;
+	left: 9.74vw;
+	width: 28.33vw;
+}
+
+.main-heading-banner-contact {
+	color: #1f1616;
+	margin-bottom: 4.61vh;
+}
+
+.wrapper-contact {
+	width: 37.6vw;
+}
+
+.secondary-heading-banner-contact {
+	color: #1f1616;
+	font-size: 1.3vw;
+	font-family: 'Roboto-Thin';
+}
+
+.contact-cta-button {
+	margin-top: 9.62vh;
+	padding: 1.15vw 2.55vw;
+  	background: #1e6deb;
+  	border: none;
+}
+
+@media(max-width: 768px) {
+	.banner-contact {
+		height: 1390px;
+	}
+
+	.img-banner-contact {
+		height: 100%;
+    	width: auto;
+		margin-top: 0%;
+		margin-left: -132%;
+	}
+
+	.overlay-contact {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.56);
+	}
+
+	.heading-banner-contact {
+		width: 73.07vw;
+	}
+
+	.main-heading-banner-contact {
+		color: #ffffff;
+	}
+
+	.wrapper-contact  {
+		width: 66.4vw;
+	}
+
+	.secondary-heading-banner-contact {
+		font-size: 4vw;
+		line-height: 4vw;
+		color: #ffffff;
+	}
+
+	.contact-cta-button {
+		margin-top: 8vw;
+		padding: 4vw 8.53vw;
+	}
+}
+
+@media (max-width: 685px) { 
+	.banner-contact {
+	  height: 1240px;
+	}
+}
+
+@media (max-width: 630px) {
+	.banner-contact {
+	  height: 1140px;
+	}
+}
+
+@media (max-width: 500px) {
+	.banner-contact {
+	  height: 970px;
+	}
+}
+
+@media(max-width: 425px) {
+	.banner-contact {
+	  height: 820px;
+	}
+}
+
+@media(max-width: 375px) {
+	.banner-contact {
+	  height: 750px;
+	}
+}

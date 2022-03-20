@@ -1,0 +1,28 @@
+.benefit-content {
+	color: #707070;
+	text-align: center;
+	margin: 0 17.45vw;
+	padding: 6.3vw 0 6.51vw;
+}
+
+.benefit-card-container {
+	display: flex;
+	flex-direction: row;
+	width: 65.1vw;
+	flex-wrap: wrap;
+}
+
+.benefit-card-container:last-child {
+	margin-top: 2.96vw;
+}
+
+@media (max-width: 768px) {
+	.benefit-content {
+		margin: 0 18.45vw;
+		padding: 8.7vw 0px 5.41vw;
+	}
+
+	.benefit-card-container {
+		width: 100%;
+	}
+}

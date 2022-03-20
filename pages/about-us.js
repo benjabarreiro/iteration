@@ -1,20 +1,16 @@
-import Link from "next/link";
-import Banner from "../components/AboutUsComponents/Banner/Banner";
-import Mission from "../components/AboutUsComponents/Mission/Mission";
-import Values from "../components/AboutUsComponents/Values/Values";
-import ImgContainer from "../components/ImgContainer/ImgContainer";
-import AboutCta from "../components/AboutUsComponents/AboutCta/AboutCta";
-import { useMediaQuery } from "../hooks/useMediaQuery";
+import Banner from "../components/AboutUs/Banner/Banner";
+import Mission from "../components/AboutUs/Mission/Mission";
+import Values from "../components/AboutUs/Values/Values";
+import ImgContainer from "../components/AboutUs/ImgContainer/ImgContainer";
+import AboutCta from "../components/AboutUs/AboutCta/AboutCta";
 
 export default function AboutPage() {
-  const image = useMediaQuery("(max-width: 768px)")
-  let imgRes = image ? "/codingHands.jpeg" : "/codingHandsWhite.jpeg"
   return (
     <div style={{zIndex: 1}}>
       <Banner />
       <Mission />
       <Values />
-      <ImgContainer mobile="img-container-about" src={imgRes} style="about-img-container" />
+      <ImgContainer />
       <AboutCta />
     </div>
   );

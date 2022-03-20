@@ -1,0 +1,41 @@
+.information-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content-text {
+	padding-top: 2.14vw;
+}
+
+.client-text {
+	width: 34.94%;
+	margin-bottom: 6.04vw;
+}
+
+.benefit-text {
+	width: 38.18vw;
+	margin-bottom: 3.65vw;
+}
+
+@media (max-width: 768px) {
+	div.information-heading h4 {
+		margin-bottom: 0;
+		font-size: 8vw;
+		line-height: 8vw;
+	}
+
+	.client-text {
+		width: 68.8vw;
+		margin-bottom: 8.8vw;
+		font-size: 3.2vw;
+		line-height: 4vw;
+	}
+
+	.benefit-text {
+		width: 100%;
+		margin-bottom: 3.65vw;
+		font-size: 3.2vw;
+		line-height: 4vw;
+	}
+}

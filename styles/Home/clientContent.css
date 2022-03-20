@@ -1,0 +1,42 @@
+.client-content {
+	color: #707070;
+	text-align: center;
+	margin: 0 6.77vw;
+	padding: 8.7vw 0px 5.41vw;
+}
+
+.card-cta {
+	width: 30.21vw;
+	margin: 0 auto;
+	padding-top: 4.43vw;
+	font-size: 1.25vw;
+	line-height: 1.5vw;
+}
+
+.card-cta-link {
+	font-weight: bold;
+	color: #6baeb9;
+}
+
+@media (max-width: 768px) {
+	.client-content {
+		margin: 0 6.77vw;
+		padding: 20vw 0px 25.87vw;
+	}
+
+	.card-cta {
+		width: 67.2vw;
+		margin: 0 auto;
+		padding-top: 10.67vw;
+		font-size: 3.2vw;
+		line-height: 4vw;
+	}
+
+	.carousel-inner {
+		padding-top: 9.6vw;
+	}
+	
+	.carousel-indicators {
+		display: none !important;
+	}
+}
