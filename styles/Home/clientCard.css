@@ -45,6 +45,7 @@
 
 	.client-card p {
 		font-size: 3.2vw;
+		line-height: 4vw;
 		margin-bottom: 0;
 	}
 }

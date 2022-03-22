@@ -11,7 +11,7 @@ export default function Tablet() {
         text="We have large expertise in software development for startups and big brands. This is who we most work with:"
         style="client-text"
       />
-      <Carousel>
+      <Carousel interval={10000} variant="dark">
         <Carousel.Item>
           <ClientCard
             icon="/icons/business-companies.png"
@@ -27,7 +27,7 @@ export default function Tablet() {
               alt=""
             />
             <h4 className="card-title title">Professional agencies</h4>
-            <p className="text">
+            <p className="text-thin">
               that want to publicize their services online to attract more
               clients using a{" "}
               <span className="text-medium underlined">responsive</span>,
@@ -45,14 +45,13 @@ export default function Tablet() {
         </Carousel.Item>
       </Carousel>
       <p className="card-cta text">
-        Arrange a meeting with us to get your free and personalized budget{" "}
         <a
           href="https://calendly.com/iteration-websites/iteration-free-consultation-call"
           rel="noopener noreferrer"
           target="_blank"
           className="card-cta-link text-bold"
         >
-          here
+          Arrange a meeting with us to get your free and personalized budget here
         </a>
       </p>
     </>

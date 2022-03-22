@@ -1,3 +1,35 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4.165vw;
+  line-height: 4.165vw;
+}
+
+h4 {
+  font-size: 2.6vw;
+  line-height: 2.6vw;
+}
+
+p {
+  font-size: 1.04vw;
+  line-height: 1.56vw;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+li {
+  font-size: 1.04vw;
+  line-height: 1.25vw;
+}
+
 @font-face {
   font-family: "Arista-Bold";
   src: url('Arista-Pro-Bold-trial.ttf');
@@ -63,6 +95,16 @@
   font-family: 'Arista-Bold';
 }
 
+.title-main {
+  font-size: 4.17vw;
+  line-height: 4.17vw;
+}
+
+.paragraph {
+  font-size: 1.04vw;
+  line-height: 1.56vw;
+}
+
 .text {
   font-family: 'Roboto-Regular';
 }
@@ -75,46 +117,102 @@
   font-family: 'Roboto-Medium';
 }
 
+.text-thin {
+  font-family: "Roboto-Thin";
+}
+
 .underlined {
   text-decoration: underline;
-}
-
-*,
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
-
-h2 {
-  font-size: 4.165vw;
-  line-height: 4.165vw;
-}
-
-h4 {
-  font-size: 2.6vw;
-  line-height: 2.6vw;
-}
-
-p {
-  font-size: 1.04vw;
-  line-height: 1.56vw;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  font-size: 1.04vw;
-  line-height: 1.25vw;
 }
 
 .link {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .title-main {
+    font-size: 4.27vw;
+    line-height: 4.27vw;
+  }
+
+  .paragraph {
+    font-size: 1.14vw;
+    line-height: 1.66vw;
+  }
+
+  h4 {
+    font-size: 2.7vw;
+    line-height: 2.7vw;
+  }
+
+  li {
+    font-size: 1.14vw;
+    line-height: 1.35vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  .title-main {
+    font-size: 4.37vw;
+    line-height: 4.37vw;
+  }
+
+  .paragraph {
+    font-size: 1.34vw;
+    line-height: 1.86vw;
+  }
+
+  h4 {
+    font-size: 2.8vw;
+    line-height: 2.8vw;
+  }
+
+  li {
+    font-size: 1.24vw;
+    line-height: 1.45vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title-main {
+    font-size: 4.47vw;
+    line-height: 4.47vw;
+  }
+
+  .paragraph {
+    font-size: 1.54vw;
+    line-height: 2.06vw;
+  }
+
+  h4 {
+    font-size: 2.9vw;
+    line-height: 2.9vw;
+  }
+
+  li {
+    font-size: 1.34vw;
+    line-height: 1.55vw;
+  }
+}
+
 @media (max-width: 768px) {
+  .title-main {
+    font-size: 10.42vw;
+    line-height: 10.42vw;
+  }
+
+  .paragraph {
+    font-size: 2.60vw;
+    line-height: 3.91vw;
+  }
+
+  h4 {
+    font-size: 5.21vw;
+		line-height: 5.21vw;
+  }
+}
+
+@media (max-width: 425px) {
   h2 {
     font-size: 10.67vw;
     line-height: 10.67vw;
@@ -126,6 +224,16 @@ li {
   }
 
   p {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+
+  .title-main {
+    font-size: 10.67vw;
+    line-height: 10.67vw;
+  }
+
+  .paragraph {
     font-size: 4vw;
     line-height: 4vw;
   }

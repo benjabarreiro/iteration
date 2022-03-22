@@ -4,9 +4,9 @@ import BenefitCard from "./BenefitCard/BenefitCard";
 export default function BenefitContent() {
   return (
     <div className="benefit-content">
-      <div className="information-heading">
+      <div className="benefit-heading">
         <h4 className="title">Why choosing us?</h4>
-        <p className="content-text benefit-text text">
+        <p className="paragraph content-text benefit-text text-thin">
           We provide digital solutions that meet your{" "}
           <span className="text-bold">
             Business Goals, Budget and Deadlines.

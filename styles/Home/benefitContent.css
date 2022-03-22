@@ -5,6 +5,12 @@
 	padding: 6.3vw 0 6.51vw;
 }
 
+.benefit-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .benefit-card-container {
 	display: flex;
 	flex-direction: row;
@@ -18,11 +24,44 @@
 
 @media (max-width: 768px) {
 	.benefit-content {
-		margin: 0 18.45vw;
-		padding: 8.7vw 0px 5.41vw;
+		margin: 0 20.34vw;
+		padding: 13.28vw 0px 17.71vw;
+	}
+
+	.benefit-heading h4 {
+		margin-bottom: 0;
+		font-size: 5.21vw;
+		line-height: 5.21vw;
 	}
 
 	.benefit-card-container {
 		width: 100%;
+	}
+
+	.benefit-text {
+		width: 66%;
+		margin-bottom: 3.65vw;
+		font-size: 1.95vw;
+		line-height: 2.6vw;
+	}
+}
+
+@media (max-width: 425px) {
+	.benefit-content {
+		margin: 0 18.45vw;
+		padding: 8.7vw 0px 5.41vw;
+	}
+
+	.benefit-heading h4 {
+		margin-bottom: 0;
+		font-size: 8vw;
+		line-height: 8vw;
+	}
+
+	.benefit-text {
+		width: 100%;
+		margin-bottom: 3.65vw;
+		font-size: 3.2vw;
+		line-height: 4vw;
 	}
 }

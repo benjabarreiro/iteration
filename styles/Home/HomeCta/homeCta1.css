@@ -23,7 +23,61 @@
 	width: 7.08vw;
 }
 
+@media (max-width: 1200px) {
+	.home-cta-container-1 {
+		padding: 10.42% 27.33vw 9.01%;
+	}
+  
+	.home-cta-description-1 p {
+	  font-size: 1.14vw;
+	  line-height: 1.66vw;
+	}
+  }
+  
+  @media (max-width: 1100px) {
+	.home-cta-description-1 p {
+	  font-size: 1.34vw;
+	  line-height: 1.86vw;
+	}
+  }
+  
+  @media (max-width: 1000px) {
+	.home-cta-container-1 {
+		padding: 10.42% 26.33vw 9.01%;
+	}
+  
+	.home-cta-description-1 p {
+	  font-size: 1.54vw;
+	  line-height: 2.06vw;
+	}
+  }
+
 @media (max-width: 768px) {
+	.home-cta-container-1 {
+		padding: 11.07vw 22.92vw 11.59vw;
+	  }
+  
+	  .home-cta-description-1 {
+		  width: 44.27vw;
+		  padding: 5.34vw 0;
+	  }
+  
+	  .home-cta-description-1 p {
+		  font-size: 1.95vw;
+		  line-height: 2.60vw;
+		  margin-bottom: 0;
+	  }
+  
+	  .cta-button1 {
+		  padding: 2.21vw 4.95vw;
+	  }
+  
+	  .cta-button1-text {
+		  width: 12.63vw;
+	  }
+}
+
+@media (max-width: 425px) {
 	.home-cta-container-1 {
 	  padding: 24.27vw 18.93vw;
 	}

@@ -9,13 +9,48 @@
 	padding: 4.93% 0 6.64%;
 }
 
+.home-cta-description2 p {
+	margin-bottom: 0;
+}
+
 .cta-button2 {
 	padding: 1.15vw 2.55vw;
 	background: #1e6deb;
 	border: none;
 }
 
+@media (max-width: 1000px) {
+	.home-cta-container2 {
+		padding: 13.91vw 22.68vw;
+	}
+}
+
 @media (max-width: 768px) {
+	.home-cta-container2 {
+		padding: 13.8vw 19.77vw;
+		text-align: center;
+		color: #707070;
+	}
+
+	.home-cta-description2 {
+		padding: 4.53vw 0 10.67vw;
+	}
+
+	.home-cta-description2 p {
+		font-size: 1.95vw;
+		line-height: 2.6vw;
+		margin: 0 auto;
+		width: 43.36vw;
+	}
+
+	.cta-button2 {
+		padding: 1vw 5.53vw;
+		background: #1e6deb;
+		border: none;
+	}
+}
+
+@media (max-width: 425px) {
 	.home-cta-container2 {
 		padding: 25.87vw 13.87vw;
 		text-align: center;
@@ -30,10 +65,11 @@
 		font-size: 3.2vw;
 		line-height: 4vw;
 		margin-bottom: 0;
+		width: 62.4vw;
 	}
 
 	.cta-button2 {
-		padding: 4vw 8.53vw;
+		padding: 1vw 8.53vw;
 		background: #1e6deb;
 		border: none;
 	}

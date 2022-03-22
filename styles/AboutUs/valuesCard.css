@@ -21,7 +21,7 @@
 	.values-card {
 		position: relative;
 		width: 62.4vw;
-		max-height: 84.33vw;
+		max-height: 78.33vw;
 		margin: 0 auto;
 		padding: 10.67vw 8.67vw 12.29vw;
 	}
@@ -40,5 +40,11 @@
 		font-size: 3.2vw;
 		line-height: 4vw;
 		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 425px) {
+	.values-card {
+		max-height: 84.33vw;
 	}
 }

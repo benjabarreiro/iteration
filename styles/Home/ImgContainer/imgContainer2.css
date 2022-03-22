@@ -22,6 +22,12 @@
 	}
 }
 
+@media (max-width: 610px) {
+	.home-img-container-2 {
+		height: 990px;
+	}
+}
+
 @media (max-width: 500px) {
 	.home-img-container-2 {
 		height: 900px;

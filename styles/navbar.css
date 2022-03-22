@@ -26,10 +26,10 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 90.13vw;
-    height: 211.4vw;
+    width: 100vw;
+    height: 200vh;
     background-color: #f4f4f4;
-    padding-top: 14.17vw;
+    padding-top: 4vw;
     display: flex;
     flex-direction: column;
   }
@@ -37,8 +37,8 @@ header {
   .close-icon-container {
     display: flex;
     justify-content: end;
-    padding-right: 12.15vw;
-    margin-bottom: 56.73vw;
+    padding-right: 4vw;
+    margin-bottom: 8vw;
   }
 
   .close-icon {
@@ -74,8 +74,44 @@ header {
 
 }
 
-/* @media(max-width: 425px) {
+@media (max-width: 700px) {
   .sideDrawer {
-    height: 167.48vh;
+    height: 196vh;
   }
-} */
+}
+
+@media (max-width: 650px) {
+  .sideDrawer {
+    height: 183vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .sideDrawer {
+    height: 178vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .sideDrawer {
+    height: 167vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .sideDrawer {
+    height: 161vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .sideDrawer {
+    height: 154vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .sideDrawer {
+    height: 141vh;
+  }
+}

@@ -10,9 +10,43 @@
 	line-height: 4.16vw;
 }
 
+@media (max-width: 1200px) {
+	.benefit-card-text {
+		font-size: 1.14vw;
+		line-height: 4.26vw;
+	}
+}
+
+@media (max-width: 1000px) {
+	.benefit-card-text {
+		font-size: 1.24vw;
+		line-height: 2.36vw;
+	}
+}
+
 @media (max-width: 768px) {
 	.benefit-card {
 		width: 50%;
+		margin-bottom: 4.95vw;
+	}
+	
+	.benefit-card-video {
+		width: 10.16vw;
+	}
+	
+	.benefit-card-text {
+		font-size: 1.95vw;
+		line-height: 2.34vw;
+		margin: 1.07vw 0 0;
+	}
+	
+	.benefit-card-text2 {
+		margin: 1.07vw 6vw 0;
+	}
+}
+
+@media (max-width: 425px) {
+	.benefit-card {
 		margin-bottom: 7.47vw;
 	}
 	
@@ -23,7 +57,6 @@
 	.benefit-card-text {
 		font-size: 3.2vw;
 		line-height: 4vw;
-		margin: 1.07vw 0 0;
 	}
 	
 	.benefit-card-text2 {

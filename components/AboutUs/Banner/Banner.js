@@ -16,7 +16,7 @@ export default function Banner() {
             agile methodologies.
           </span>
         </p>
-        <img className="arrow-about" src="./arrow.png" alt="" />
+        <img className="arrow-about" src="./icons-ui/arrow.png" alt="" />
       </div>
     </div>
   );

@@ -12,6 +12,10 @@
 	margin: 36.72vh 0 54.47vh;
 }
 
+.about-cta-container p {
+	margin-bottom: 0;
+}
+
 .about-cta-title {
 	margin-bottom: 2.60vw;
 }
@@ -31,6 +35,30 @@
 
 @media (max-width: 768px) {
 	.about-cta-container {
+		width: 64.27vw;
+		margin: 20.7vw 0 18.75vw;
+	}
+
+	.about-cta-title {
+		font-size: 5.21vw;
+		line-height: 5.21vw;
+		margin-bottom: 2.21vw;
+	}
+
+	.about-cta-container p {
+		font-size: 1.95vw;
+		line-height: 2.6vw;
+		width: 43.36vw;
+		margin: 0 auto;
+	}
+
+	.about-cta-button {
+		margin-top: 7.42vw;
+	}
+}
+
+@media (max-width: 425px) {
+	.about-cta-container {
 		width: 72.27vw;
 		margin: 24vw 0 38.4vw;
 	}
@@ -39,6 +67,12 @@
 		font-size: 8vw;
 		line-height: 8vw;
 		margin-bottom: 4.53vw;
+	}
+
+	.about-cta-container p {
+		width: unset;
+		font-size: 3.2vw;
+		line-height: 4vw;
 	}
 
 	.about-cta-button {

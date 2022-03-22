@@ -4,7 +4,7 @@ import ValuesCard from "../ValuesCard/ValuesCard";
 
 export default function Tablets() {
   return (
-    <Carousel>
+    <Carousel interval={10000} variant="dark">
       <Carousel.Item>
         <ValuesCard
           title="Constant Optimization"

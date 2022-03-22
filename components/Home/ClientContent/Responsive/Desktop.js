@@ -20,7 +20,7 @@ export default function Desktop() {
         <div className="client-card">
           <img className="icon-style" src="/icons/professional-agencies.png" alt="" />
           <h4 className="card-title title">Professional agencies</h4>
-          <p className="text">
+          <p className="text-thin paragraph">
             that want to publicize their services online to attract more clients
             using a <span className="text-medium underlined">responsive</span>,
             self-managing and 100% customizable website that will show them

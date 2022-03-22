@@ -38,9 +38,103 @@
   	border: none;
 }
 
+@media (max-width: 1200px) {
+	.secondary-heading-banner-contact {
+		font-size: 1.4vw;
+	}
+}
+
+@media (max-width: 1100px) {
+	.secondary-heading-banner-contact {
+		font-size: 1.45vw;
+	}
+}
+
+@media (max-width: 1000px) {
+	.secondary-heading-banner-contact {
+		font-size: 1.55vw;
+		line-height: 1.66vw;
+	}
+}
+
+@media (max-width: 900px) {
+	.secondary-heading-banner-contact {
+		font-size: 1.65vw;
+		line-height: 1.76vw;
+	}
+}
+
+@media (max-width: 800px) {
+	.secondary-heading-banner-contact {
+		font-size: 1.70vw;
+		line-height: 1.86vw;
+	}
+}
+
 @media(max-width: 768px) {
 	.banner-contact {
-		height: 1390px;
+		height: 934px;
+	}
+
+	.img-banner-contact {
+		height: 127%;
+    	width: auto;
+		margin-top: -29%;
+		margin-left: 0%;
+	}
+
+	.overlay-contact {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.63);
+	}
+
+	.heading-banner-contact {
+		width: 68.1vw;
+		top: 31.77vw;
+		left: 10.16vw;
+	}
+
+	.main-heading-banner-contact {
+		font-size: 10.42vw;
+		line-height: 10.42vw;
+		color: #ffffff;
+		margin-bottom: 10.61vw;
+	}
+
+	.wrapper-contact  {
+		width: 54.17vw;
+	}
+
+	.secondary-heading-banner-contact {
+		font-size: 2.60vw;
+		line-height: 3.91vw;
+		color: #ffffff;
+	}
+
+	.contact-cta-button {
+		margin-top: 4.43vw;
+		padding: 1vw 7.53vw;
+	}
+}
+
+@media(max-width: 640px) {
+	.banner-contact {
+		height: 760px;
+	}
+}
+
+@media(max-width: 520px) {
+	.banner-contact {
+		height: 620px;
+	}
+}
+
+@media(max-width: 425px) {
+	.banner-contact {
+	  height: 820px;
 	}
 
 	.img-banner-contact {
@@ -59,11 +153,14 @@
 	}
 
 	.heading-banner-contact {
+		top: 13.02vw;
+		left: 9.74vw;
 		width: 73.07vw;
 	}
 
 	.main-heading-banner-contact {
 		color: #ffffff;
+		margin-bottom: 4.61vw;
 	}
 
 	.wrapper-contact  {
@@ -78,31 +175,7 @@
 
 	.contact-cta-button {
 		margin-top: 8vw;
-		padding: 4vw 8.53vw;
-	}
-}
-
-@media (max-width: 685px) { 
-	.banner-contact {
-	  height: 1240px;
-	}
-}
-
-@media (max-width: 630px) {
-	.banner-contact {
-	  height: 1140px;
-	}
-}
-
-@media (max-width: 500px) {
-	.banner-contact {
-	  height: 970px;
-	}
-}
-
-@media(max-width: 425px) {
-	.banner-contact {
-	  height: 820px;
+		padding: 1vw 8.53vw;
 	}
 }
 

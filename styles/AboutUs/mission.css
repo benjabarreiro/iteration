@@ -22,6 +22,35 @@
 	.mission {
 		flex-direction: column;
 		text-align: center;
+		padding: 15.03vw 28.26vw 11.07vw;
+	}
+  
+	.mission-img {
+		width: 100%;
+		margin-bottom: 6.38vw;
+	}
+  
+	.mission-text {
+		margin-left: 0vw;
+		margin-top: 0vw;
+	}
+  
+	.mission-text-title {
+		font-size: 5.21vw;
+		line-height: 5.21vw;
+		margin-bottom: 5.09vw;
+	}
+  
+	.mission-text-paragraph {
+		font-size: 1.95vw;
+		line-height: 2.60vw;
+	}
+}
+
+@media (max-width: 425px) {
+	.mission {
+		flex-direction: column;
+		text-align: center;
 		padding: 29.09vw 16.40vw 25.07vw;
 	}
   
@@ -43,5 +72,6 @@
   
 	.mission-text-paragraph {
 		font-size: 3.2vw;
+		line-height: 4vw;
 	}
 }
