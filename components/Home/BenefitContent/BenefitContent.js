@@ -16,25 +16,28 @@ export default function BenefitContent() {
       </div>
       <div className="benefit-card-container">
         <BenefitCard
-          video="/videos/agile-methodology-development.mp4"
+          video="/videos/img/agile-methodology-development.jpg"
           text="AGILE METHODOLOGY DEVELOPMENT"
         />
         <BenefitCard
-          video="/videos/quick-start.mp4"
+          video="/videos/img/quick-start.jpg"
           text="QUICK START"
           style="benefit-card-text2"
         />
-        <BenefitCard video="/videos/affordable.mp4" text="RETURN OF INVESTMENT" />
         <BenefitCard
-          video="/videos/customized-results.mp4"
+          video="/videos/img/affordable.jpg"
+          text="RETURN OF INVESTMENT"
+        />
+        <BenefitCard
+          video="/videos/img/customized-results.jpg"
           text="100% CUSTOMIZED RESULTS"
         />
         <BenefitCard
-          video="/videos/security-of-information.mp4"
+          video="/videos/img/security-of-information.jpg"
           text="SECURITY OF INFORMATION"
         />
         <BenefitCard
-          video="/videos/optimizations-every-6-month.mp4"
+          video="/videos/img/optimizations-every-6-month.jpg"
           text="OPTIMIZATIONS EVERY 6 MONTH"
         />
       </div>
