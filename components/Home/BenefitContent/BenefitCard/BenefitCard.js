@@ -6,7 +6,7 @@ export default function BenefitCard({ video, text, style }) {
   let classVar = mobile ? style : ''
   return (
     <div className="benefit-card">
-      <video className="benefit-card-video" src={video}></video>
+      <video className="benefit-card-video" src={video} playsInline></video>
       <p className={`benefit-card-text text-medium ${classVar}`}>{text}</p>
     </div>
   );
