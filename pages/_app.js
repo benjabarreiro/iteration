@@ -23,7 +23,6 @@ function MyApp({ Component, pageProps }) {
           name="facebook-domain-verification"
           content="ovu285fcwwo9zhobehpogko39i19is"
         />
-
         <script
           dangerouslySetInnerHTML={{
             __html: `!function(f,b,e,v,n,t,s)
@@ -49,7 +48,7 @@ function MyApp({ Component, pageProps }) {
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-2G8CZ52F27"
-        ></script>
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
@@ -63,7 +62,7 @@ function MyApp({ Component, pageProps }) {
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-228159306-1"
-        ></script>
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
@@ -84,14 +83,16 @@ function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
-      <noscript>
-        <iframe
+      <noscript
+        dangerouslySetInnerHTML={{
+          __html: `<iframe
           src="https://www.googletagmanager.com/ns.html?id=GTM-KKGW7BF"
           height="0"
           width="0"
           style="display:none;visibility:hidden"
-        ></iframe>
-      </noscript>
+        ></iframe>`,
+        }}
+      />
 
       <Navbar />
       <Component {...pageProps} />
