@@ -21,7 +21,7 @@ export default function HomeCta1() {
         target="_blank"
       >
         <button className="cta-button1 text-bold">
-          <div className="cta-button1-text">Let’s do it</div>
+          <div className="cta-button1-text">Schedule a Meeting</div>
         </button>
       </a>
     </div>
